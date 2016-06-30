@@ -8,6 +8,7 @@ Flume 1.7.0 implements Taildir Source in [FLUME-2498].
 This is the proposal of implementing a new tailing source.
 
 This source watches the specified files, and tails them in nearly real-time once appends are detected to these files.
+
 1. This source is reliable and will not miss data even when the tailing files rotate.
 2. It periodically writes the last read position of each file in a position file using the JSON format.
 3. If Flume is stopped or down for some reason, it can restart tailing from the position written on the existing position file.
