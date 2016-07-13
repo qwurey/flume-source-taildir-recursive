@@ -21,9 +21,9 @@ This source requires Unix-style file system and Java 1.7 or later.
 
 Flume-NG's Taildir Source does not support recursivly traversal the directory. So I have developed this feature to support monitor sub-directories recursivly.
 
-**NOTE 1: This plugin is built for Flume-NG 1.6.0 and will not work on Flume-OG. It's worth noting that if you use it on Flume-NG 1.6.0, you should also make some change in other modules because of the difference between 1.6.0 and 1.7.0, the two major versions. For instance, flume-ng-core.  Of course, you can transfer this feature to Flume-NG 1.7.0 easily without any changes**
+**NOTE 1: This plugin is built for Flume-NG 1.6.0 and will not work on Flume-OG. It's worth noting that if you use it on Flume-NG 1.6.0, you should also make some change in other modules because of the difference between 1.6.0 and 1.7.0, the two major versions. For instance, flume-ng-core.  Of course, you can transfer this feature to Flume-NG 1.7.0 easily without any changes.**
 
-**NOTE 2: It lacks comprehensive test coverage. Of course contributions are welcome to make its more stable and useful**
+**NOTE 2: It lacks comprehensive test coverage. Of course contributions are welcome to make its more stable and useful.**
 
 ## Compilation
 
